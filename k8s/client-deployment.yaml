@@ -15,9 +15,5 @@ spec:
       containers:
         - name: client
           image: xscotophilic/docker-multicontainer-complex-app-client
-          resources:
-            limits:
-              memory: '64Mi'
-              cpu: '200m'
           ports:
             - containerPort: 3000

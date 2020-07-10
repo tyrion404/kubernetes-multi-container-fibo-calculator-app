@@ -15,10 +15,6 @@ spec:
       containers:
         - name: server
           image: xscotophilic/docker-multicontainer-complex-app-server
-          resources:
-            limits:
-              memory: '64Mi'
-              cpu: '200m'
           ports:
             - containerPort: 5000
           env:
